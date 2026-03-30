@@ -68,5 +68,6 @@ Use the following skills when working on related files:
 |---------|-------|
 | `README.md` | `/readme` |
 | `.github/workflows/*.yml` | `/ci-workflow` |
+| `**/*.component.ts`, `**/*.service.ts`, `**/*.directive.ts` | `angular-patterns` |
 
 When spawning subagents, always pass conventions from the respective skill into the agent's prompt.
