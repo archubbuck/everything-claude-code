@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+main.shell {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 48px 24px 64px;
+}
+
+.hero {
+  margin-bottom: 24px;
+}
+
+.eyebrow {
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #475569;
+  margin: 0 0 6px;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.lede {
+  margin: 8px 0 0;
+  color: #475569;
+  max-width: 640px;
+}
+
+code {
+  background: #e2e8f0;
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 8px 32px rgba(15, 23, 42, 0.05);
+}
+
+ol {
+  padding-left: 20px;
+  margin: 0;
+  color: #0f172a;
+  line-height: 1.6;
+}

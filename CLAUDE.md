@@ -30,6 +30,7 @@ The project is organized into several core components:
 - **mcp-configs/** - MCP server configurations for external integrations
 - **scripts/** - Cross-platform Node.js utilities for hooks and setup
 - **tests/** - Test suite for scripts and utilities
+- **apps/** - Consumer applications (e.g., Angular frontends, APIs) when ECC is sideloaded; keep ECC at repo root and place app code under `apps/`
 
 ## Key Commands
 
@@ -68,5 +69,6 @@ Use the following skills when working on related files:
 |---------|-------|
 | `README.md` | `/readme` |
 | `.github/workflows/*.yml` | `/ci-workflow` |
+| `**/*.component.ts`, `**/*.service.ts`, `**/*.directive.ts` | `angular-patterns` |
 
 When spawning subagents, always pass conventions from the respective skill into the agent's prompt.
