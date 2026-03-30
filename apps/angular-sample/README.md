@@ -11,7 +11,7 @@ npm run start
 ```
 
 ## What's included
-- Minimal `package.json` with Angular 17+ dependencies and `@angular/cli` for local dev.
+- Minimal `package.json` with Angular 17.2.x dependencies and `@angular/cli` for local dev.
 - Standalone `AppComponent` using `bootstrapApplication` in `main.ts`.
 - Simple CSS + HTML template to confirm the app boots.
 
