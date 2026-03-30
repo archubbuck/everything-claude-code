@@ -1,0 +1,16 @@
+<main class="shell">
+  <header class="hero">
+    <p class="eyebrow">Everything Claude Code</p>
+    <h1>{{ title }}</h1>
+    <p class="lede">
+      This starter lives under <code>apps/</code> so the root ECC rules, agents, and skills apply automatically.
+    </p>
+  </header>
+
+  <section class="card">
+    <h2>Next steps</h2>
+    <ol>
+      <li *ngFor="let step of steps">{{ step }}</li>
+    </ol>
+  </section>
+</main>
