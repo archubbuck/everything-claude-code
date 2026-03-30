@@ -10,6 +10,7 @@ This repository is **Everything Claude Code (ECC)** — a production-ready AI co
 - `hooks/` — Trigger-based automations
 - `rules/` — Language-specific coding rules (`rules/<language>/*.md`)
 - `mcp-configs/` — MCP server configurations
+- `apps/` — Your applications (e.g., Angular frontends, APIs) when you sideload ECC into a repo; keep ECC at repo root and place app projects under `apps/`
 
 ## Coding Standards
 

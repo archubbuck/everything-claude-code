@@ -207,6 +207,10 @@ npx ecc-install typescript
 
 For manual install instructions see the README in the `rules/` folder. When copying rules manually, copy the whole language directory (for example `rules/common` or `rules/golang`), not the files inside it, so relative references keep working and filenames do not collide.
 
+### Optional: apps/ layout (monorepo)
+
+Keep ECC at the repo root and place your apps under `apps/` (e.g., `apps/web`, `apps/admin`, `apps/api`). Run the installer once at the root; the existing rule `paths` globs already scope by file type so Angular rules apply to `apps/*/src/**/*.component.ts` while backend rules apply to their languages without extra config.
+
 ### Step 3: Start Using
 
 ```bash

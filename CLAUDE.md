@@ -30,6 +30,7 @@ The project is organized into several core components:
 - **mcp-configs/** - MCP server configurations for external integrations
 - **scripts/** - Cross-platform Node.js utilities for hooks and setup
 - **tests/** - Test suite for scripts and utilities
+- **apps/** - Consumer applications (e.g., Angular frontends, APIs) when ECC is sideloaded; keep ECC at repo root and place app code under `apps/`
 
 ## Key Commands
 
