@@ -1,10 +1,13 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+/**
+ * Root shell for the sample app; CommonModule enables structural directives like *ngFor.
+ */
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule], // required for *ngFor
+  imports: [CommonModule],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
   changeDetection: ChangeDetectionStrategy.OnPush
